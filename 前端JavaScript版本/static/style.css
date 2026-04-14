@@ -1,0 +1,69 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f7f8fa;
+        margin: 0;
+        padding: 40px;
+        color: #222;
+    }
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .card {
+        background: white;
+        border-radius: 16px;
+        padding: 24px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        margin-bottom: 24px;
+    }
+    h1 {
+        margin-top: 0;
+        font-size: 40px;
+        background: lightblue;
+    }
+    h2 {
+        margin-bottom: 16px;
+    }
+    .meta {
+        color: #555;
+        line-height: 1.8;
+        font-size: 16px;
+    }
+    .controls-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+    input, select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+    .full {
+        grid-column: 1 / -1;
+    }
+    button {
+        padding: 12px 20px;
+        border: none;
+        border-radius: 10px;
+        background: #222;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    #error {
+        color: red;
+        min-height: 24px;
+    }
+    canvas {
+        margin-top: 12px;
+    }
+</style>
